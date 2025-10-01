@@ -1,6 +1,6 @@
 # Python
 __pycache__/
-*.py[cod]
+*.pyc
 *$py.class
 *.so
 
@@ -65,3 +65,7 @@ Thumbs.db
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# others
+md_to_pdf.py
+*.pdf
