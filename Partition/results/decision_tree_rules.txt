@@ -1,0 +1,24 @@
+Decision Tree Rules:
+==================================================
+|--- color_intensity <= -0.50
+|   |--- color_intensity <= -0.65
+|   |   |--- class: 1
+|   |--- color_intensity >  -0.65
+|   |   |--- total_phenols <= -0.14
+|   |   |   |--- class: 1
+|   |   |--- total_phenols >  -0.14
+|   |   |   |--- class: 0
+|--- color_intensity >  -0.50
+|   |--- flavanoids <= -0.45
+|   |   |--- flavanoids <= -0.64
+|   |   |   |--- class: 2
+|   |   |--- flavanoids >  -0.64
+|   |   |   |--- class: 1
+|   |--- flavanoids >  -0.45
+|   |   |--- proline <= -0.08
+|   |   |   |--- malic_acid <= 0.52
+|   |   |   |   |--- class: 1
+|   |   |   |--- malic_acid >  0.52
+|   |   |   |   |--- class: 0
+|   |   |--- proline >  -0.08
+|   |   |   |--- class: 0

@@ -4,5 +4,6 @@
 
 ```
 DataAnalysis/
-└── LinearRegression/     # 线性回归，第一次作业
+├── LinearRegression/     # 线性回归，第一次作业
+└── Partition/            # 数据分类，第二次作业
 ```
