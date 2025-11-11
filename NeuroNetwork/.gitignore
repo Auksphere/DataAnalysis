@@ -1,0 +1,30 @@
+# CIFAR-10 数据集
+cifar-10-batches-py/
+cifar-10-python.tar.gz
+
+# 训练好的模型文件
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.pkl
+
+# 训练过程文件
+runs/
+logs/
+tensorboard/
+
+# 生成的图表和结果
+plots/
+figures/
+*.png
+*.jpg
+*.jpeg
+
+# 报告文件
+*.pdf
+*.html
+
+# 临时文件
+*.tmp
+*.log

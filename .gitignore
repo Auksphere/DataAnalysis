@@ -66,6 +66,84 @@ Thumbs.db
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# others
-md_to_pdf.py
+# Machine Learning / Data Science - 所有大文件
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.model
+*.weights
+
+# 数据集文件 - 防止意外提交大型数据集
+*.csv
+*.tsv
+*.json
+*.parquet
+*.feather
+*.xlsx
+*.xls
+*.tar.gz
+*.zip
+*.7z
+*.rar
+data/
+datasets/
+raw_data/
+processed_data/
+
+# CIFAR-10 数据集相关
+**/cifar-10-python.tar.gz
+**/cifar-10-batches-py/
+**/data_batch_*
+**/test_batch
+**/batches.meta
+
+# 模型和训练结果
+models/
+checkpoints/
+logs/
+runs/
+results/
+outputs/
+plots/
+figures/
+images/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+
+# 生成的报告文件
 *.pdf
+*.html
+reports/
+
+# Conda environments
+envs/
+environment.yml
+
+# 临时和日志文件
+*.tmp
+*.temp
+*.log
+*.out
+
+# 项目特定文件
+md_to_pdf.py
+CNN_*.pdf
+卷积神经网络*.pdf
+**/best.pth
+**/summary.txt
+**/report.txt
+
+# 备份文件
+*.bak
+*.backup
